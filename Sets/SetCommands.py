@@ -9,6 +9,7 @@ def commands(st, m):
             st.discard(int(cmd[1]))
 
     print(sum(st))
+    
 if __name__ == '__main__':
     n = int(input().strip())            # number of set elements
     s = set(map(int, input().split()))
